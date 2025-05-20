@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Move Changes</title>
+<link href="../css/style.css" rel="stylesheet"/>
+<script defer="" src="../js/main.js"></script>
+</head>
+<body>
+<header>
+<h1>Move Changes (v1.3.0)</h1>
+<input data-search-input="true" id="search-moves" placeholder="Search move names, changes, or types..." type="text"/>
+</header>
+<main>
+<pre data-search-content="true" id="move-changes-content">
+| Pokémon Renegade Platinum         |
+| Move Changes (v1.3.0)             |
+
+
+=========================================================
+General Changes
+=========================================================
+- The numbers of all moves (power, accuracy, PP, effect chance, priority) are updated to match Ultra Sun and Ultra Moon.
+- Curse is now a Ghost-type move as in Ultra Sun and Ultra Moon.
+- Charm, Moonlight and Sweet Kiss are now Fairy-type as in Ultra Sun and Ultra Moon.
+
+=========================================================
+Move Replacements
+=========================================================
+The following moves have been replaced with moves from later generations.
+Moves under the "Old Move" column are now unavailable.
+
+Old Move                New Move
+---------               ---------
+Barrage                 Draining Kiss
+Brine                   Scald
+Constrict               Icicle Crash
+Horn Drill              Drill Run
+Lunar Dance             Moonblast
+Luster Purge            Dazzling Gleam
+Mist Ball               Disarming Voice
+Sand Tomb               Bulldoze
+Submission              Play Rough
+Twister                 Hurricane
+Volt Tackle             Wild Charge
+
+=========================================================
+Move Modifications
+=========================================================
+Some moves have had changes to their numerical values.
+There are also some cases where moves have lost effects because it can't be replicated in the Gen IV engine.
+
+Aurora Beam
+Power: 65 &gt;&gt; 75
+PP: 20 &gt;&gt; 15
+
+Blaze Kick
+Power: 85 &gt;&gt; 90
+Accuracy: 90 &gt;&gt; 100
+
+Bubble Beam
+Power: 65 &gt;&gt; 75
+PP: 20 &gt;&gt; 15
+
+Chatter
+Power: 65 &gt;&gt; 90
+PP: 20 &gt;&gt; 15
+
+Cross Poison
+Power: 70 &gt;&gt; 90
+PP: 20 &gt;&gt; 15
+
+Cut
+Power: 50 &gt;&gt; 60
+Accuracy: 95% &gt;&gt; 100%
+PP: 30 &gt;&gt; 25
+Type: Normal &gt;&gt; Grass
+Effect: No Effect &gt;&gt; High Critical Ratio
+
+Disarming Voice
+Power: 40 &gt;&gt; 50
+
+Draining Kiss
+Power: 50 &gt;&gt; 75
+Recovery: 75% &gt;&gt; 50% (Engine limitation)
+
+Flame Wheel
+Power: 60 &gt;&gt; 75
+PP: 25 &gt;&gt; 15
+
+Fly
+Power: 90 &gt;&gt; 100
+Accuracy: 95% &gt;&gt; 100%
+
+Hurricane
+Effect: Confusion (30%) &gt;&gt; No Effect (Engine limitation)
+
+Needle Arm
+Power: 60 &gt;&gt; 90
+
+Poison Fang
+Power: 50 &gt;&gt; 65
+Accuracy: 100 &gt; 95
+
+Poison Tail
+Power: 50 &gt;&gt; 90
+PP: 25 &gt;&gt; 15
+
+Rock Climb
+Power: 90 &gt;&gt; 80
+Accuracy: 85% &gt;&gt; 95%
+PP: 20 &gt;&gt; 10
+Type: Normal &gt;&gt; Rock
+
+Rock Smash
+Power: 40 &gt;&gt; 60
+
+Scald
+Effect: Burn (30%) + Self thaw + Thaw enemy frozen Pokémon &gt;&gt; Burn (30%) + Self thaw (Engine limitation)
+
+Shadow Claw
+Power: 65 &gt;&gt; 80
+PP: 15 &gt;&gt; 15
+
+Shadow Punch
+Power: 60 &gt;&gt; 80
+PP: 20 &gt;&gt; 15
+
+Sludge
+Power: 65 &gt;&gt; 75
+PP: 20 &gt;&gt; 15
+
+Strength:
+Power: 80 &gt;&gt; 100
+Effect: No Effect &gt;&gt; May Raise Attack (10%)
+
+Wild Charge
+Power: 90 &gt;&gt; 100
+    </pre>
+</main>
+<script>
+    setupSearch('search-moves', 'move-changes-content');
+  </script>
+<div style="text-align:center; margin-top: 2rem;">
+<button class="nav-button" onclick="history.back()">← Back</button>
+</div>
+<button id="scrollTopBtn" onclick="scrollToTop()" title="Go to top">↑</button>
+</body>
+</html>

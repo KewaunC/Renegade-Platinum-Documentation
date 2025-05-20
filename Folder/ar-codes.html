@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AR Codes</title>
+<link href="../css/style.css" rel="stylesheet"/>
+<script defer="" src="../js/main.js"></script>
+</head>
+<body>
+<header>
+<h1>Action Replay Codes (v1.3.0)</h1>
+<input data-search-input="true" id="search-ar-codes" placeholder="Search codes or features..." type="text"/>
+</header>
+<main>
+<pre data-search-content="true" id="ar-codes-content">
+| Pokémon Renegade Platinum         |
+| Action Replay Codes (v1.3.0)      |
+
+
+=========================================================
+General
+=========================================================
+- These are some Action Replay codes which might be helpful to make the game play a bit faster.
+- Please note that the Game ID is different to the original Platinum. You can find this value out with the R4 Cheat Code Editor program if you need it.
+- These can also be applied to the ROM as an additional patch which is supplied with the download.
+
+=========================================================
+Instant Text
+=========================================================
+This code will make all text appear instantly instead of a gradual scroll.
+Please note that it will stop you hearing certain fanfares (e.g. the sound effect after an evolution).
+
+120023FC 00002100
+1201D97E 00001C0C
+1201D980 00004818
+1201D9AE 0000BD10
+0201D9B0 E7E53C2D
+1201D9BE 0000D0DF
+1201D9CA 0000E7F1
+
+=========================================================
+Gauge Animation Cut
+=========================================================
+This code will make it so HP bars drop instantly instead of gradually.
+Please note that it won't have any effect until the HP bars are over a certain value, so the effect won't be immediately apparent early on.
+
+12268178 00001C20
+12268186 00001C20
+12085734 00001C21
+    </pre>
+</main>
+<script>
+    setupSearch('search-ar-codes', 'ar-codes-content');
+  </script>
+<div style="text-align:center; margin-top: 2rem;">
+<button class="nav-button" onclick="history.back()">← Back</button>
+</div>
+<button id="scrollTopBtn" onclick="scrollToTop()" title="Go to top">↑</button>
+</body>
+</html>
